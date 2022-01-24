@@ -1,0 +1,24 @@
+{
+    "name": "zenith",
+    "version": "1.0.0",
+    "description": "Korean radio bot",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "cd dist && supervisor index.js",
+        "compile": "tsc -w"
+    },
+    "repository": "https://github.com/alanimdeo/Zenith",
+    "author": "Alanimdeo",
+    "license": "MIT",
+    "devDependencies": {
+        "supervisor": "^0.12.0"
+    },
+    "dependencies": {
+        "@discordjs/builders": "^0.11.0",
+        "@discordjs/opus": "^0.7.0",
+        "@discordjs/voice": "^0.7.5",
+        "discord.js": "^13.6.0",
+        "ffmpeg": "^0.0.4",
+        "m3u8stream": "^0.8.6"
+    }
+}
